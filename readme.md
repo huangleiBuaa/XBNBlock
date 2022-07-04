@@ -4,12 +4,6 @@
 ```Bash
 pip install visdom
 ```
-===========================================================================
-
-Note: I noted the pre-trained models are requested, here is the link of [ResNet-XBNBlock-standard_train](https://drive.google.com/file/d/1xqGsCDD4Y_rv6PjTtACAs8D918fjUT55/view?usp=sharing) and [ResNet-XBNBlock-advanced_train](https://drive.google.com/file/d/1pHRhjc67M5wki5fWy44SG5lj06q71gat/view?usp=sharing). I will upload our pre-trained ResNeXt model, if I can access the machine in my lab. (work at home due to COVID-19)
-
-===========================================================================
-
 
 
 
@@ -28,4 +22,14 @@ Download the ImageNet-1K datasets, and put it in the dir: `./data/imageNet/`   o
 We provide the scripts in `./experiments/`, including the experiments on the ResNet, ResNeXt,  Mobilenet-V2  and ShuffleNet-V2  . 
 
 
+
+#### 3. Results of object detection for COCO:
+
+We provide the codes in `./ObjectDetection/`,  based on the [mask-rcnn codebase](https://github.com/facebookresearch/maskrcnn-benchmark)
+
+
+
+#### 4.Pre-trained models: 
+
+[ResNet-50-XBNBlock-standard_train](https://drive.google.com/file/d/1xqGsCDD4Y_rv6PjTtACAs8D918fjUT55/view?usp=sharing), [ResNet-50-XBNBlock-advanced_train](https://drive.google.com/file/d/1pHRhjc67M5wki5fWy44SG5lj06q71gat/view?usp=sharing), [[ResNeXt-50-XBNBlock-advanced_train](https://drive.google.com/file/d/1MKQ4iAOnKGWmDwN7lfzFJqGmTqL823NJ/view?usp=sharing)
 
